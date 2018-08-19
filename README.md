@@ -1,2 +1,8 @@
-# DartFetchPicsExample
-I've created a sample project using dart which fetches images from server and adds into a list.
+# pics
+
+A new Flutter project.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
