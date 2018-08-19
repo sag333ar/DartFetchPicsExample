@@ -25,20 +25,24 @@ class ImageList extends StatelessWidget {
       ),
       padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.all(20.0),
-      child: Column(
-        children: <Widget>[
-          Padding(
-            padding: EdgeInsets.only(
-              bottom: 10.0,
-            ),
-            child: Image.network(model.url),
+      child: buildColumnChild(model)
+    );
+  }
+
+  Widget buildColumnChild(ImageModel model) {
+    return Column(
+      children: <Widget>[
+        Padding(
+          padding: EdgeInsets.only(
+            bottom: 10.0,
           ),
-          Text(
-            model.title,
-            textAlign: TextAlign.center,
-          )
-        ],
-      ),
+          child: Image.network(model.url),
+        ),
+        Text(
+          model.title,
+          textAlign: TextAlign.center,
+        )
+      ],
     );
   }
 
