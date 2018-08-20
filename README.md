@@ -1,7 +1,4 @@
-# pics
-
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+## pics
 
 ![Demo Output for Android](https://github.com/sag333ar/DartFetchPicsExample/blob/master/images/Screenshot_1534729780.png?raw=true)
 ![Demo Output for iOS](https://github.com/sag333ar/DartFetchPicsExample/blob/master/images/ScreenShot_2018-08-20_7.33.56.png?raw=true)
